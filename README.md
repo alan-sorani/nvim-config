@@ -4,13 +4,14 @@
 
 The config files are arranged in the following directory structure.
 
+```
 .
 └── lua
     ├── plugin_configs
     ├── plugins
     ├── providers
     └── tealeaf
-
+```
 - Plugins are added in ./lua/plugins.
 - Plugin configs are added to ./lua/plugin_configs and must currently be required through ./lua/plugin_configs/init.lua.
 - Neovim providers and their settings are configured in ./lua/providers.
