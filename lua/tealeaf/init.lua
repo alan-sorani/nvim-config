@@ -9,3 +9,6 @@ require("plugin_configs")
 
 -- Programming language providers
 require("providers")
+
+-- General settings
+require("tealeaf.settings")
