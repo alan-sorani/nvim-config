@@ -1,2 +1,11 @@
 -- Make line numbers default
 vim.wo.number = true
+
+-- Set tab width
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = false
+
+-- Set manual folding
+vim.o.foldenable = true
+vim.o.foldmethod = "manual"
