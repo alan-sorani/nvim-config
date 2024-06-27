@@ -9,3 +9,6 @@ vim.o.expandtab = false
 -- Set manual folding
 vim.o.foldenable = true
 vim.o.foldmethod = "manual"
+
+-- Set column indicator
+vim.opt.colorcolumn = "100"
