@@ -8,7 +8,7 @@ require("plugin_configs.harpoon")
 require("plugin_configs.telescope")
 
 -- Syntax highlighting etc.
-require("plugin_configs.treesitter")
+-- require("plugin_configs.treesitter")
 
 -- Status line
 require("plugin_configs.lualine")
