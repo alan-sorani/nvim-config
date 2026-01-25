@@ -12,3 +12,6 @@ vim.o.foldmethod = "manual"
 
 -- Set column indicator
 vim.opt.colorcolumn = "100"
+
+--# Set python alias
+vim.g.python3_host_prog = vim.fn.exepath("python")
